@@ -39,7 +39,7 @@ input;
         if ($input.value == 0) {
           $input.value = ''
         }
-        $input.value = $input.value.concat(item.value)
+        $input.value += item.value
       },
       false
     )
